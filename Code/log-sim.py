@@ -7,7 +7,7 @@ import re
 import argparse
 import configparser
 
-version = "1.02"
+version = "1.03"
 
 # NOTES:
 # - \033[F = Moves the cursor up one line
@@ -36,7 +36,7 @@ def find_dt_pos(text):
 def main():
     
     out_log_file = "cu-lan-ho.log"
-    inp_log_file = os.path.join("./Data", "cu-lan-ho.log")
+    inp_log_file = os.path.join("../Data", "cu-lan-ho.log")
 
     print("-------------------------")
     print("srsRAN log Simulator " + version)
